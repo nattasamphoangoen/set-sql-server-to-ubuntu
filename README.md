@@ -46,3 +46,9 @@ sudo apt-get update
 
 ```
 
+
+# set change lenguage of ubuntu 24.04
+```bash
+// open terminal
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Shift>Alt_L']"
+```
